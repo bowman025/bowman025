@@ -19,15 +19,15 @@ const developer = {
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) [![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white)](#) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) [![RabbitMQ](https://img.shields.io/badge/-rabbitmq-%23FF6600?logo=rabbitmq&logoColor=fff)](#)
 ---
 
-### ⚙️ Under the Hood (Architectural Wins Below 👇)
+### ⚙️ System Design Focus (Implementing below 👇)
 
-* **Cross-Stack Type Safety:** Designed an isolated monorepo workspace package (`pnpm`) publishing shared `Zod` schemas to enforce an end-to-end client/server validation firewall.
-* **Zero-Trust Game Logic:** Authored server-side coordinate validation and gameplay clock logic via `Prisma` to completely eliminate client-side manipulation.
-* **Data Lifecycle Automation:** Engineered background sweeping routines to auto-purge orphaned cloud assets (`Cloudinary`) and expire temporary guest database records after 6 hours.
-* **Network Fault Tolerance:** Implemented custom real-time reconnection hooks (`Socket.io`) and network polling loops to seamlessly absorb serverless cold starts.
+* **Monorepo Type-Safety:** Publishing shared `Zod` schemas across isolated `pnpm`/`npm` workspace packages to guarantee end-to-end frontend/backend type validation.
+* **Server-Side Validation:** Moving coordinate validation and game timing strictly server-side to eliminate client manipulation in web-based apps.
+* **Data Lifecycles:** Writing automated hooks and JIT transactions to clear expired guest records and safely purge orphaned cloud assets (`Cloudinary`).
+* **UX Stability:** Building lazy router initialization patterns with automated API polling loops to gracefully handle serverless cold starts.
 
 ---
 
 ### 🌐 Connect
-* **Web:** [rastkoandonov.com](https://rastkoandonov.com)
-* **LinkedIn:** [linkedin.com](https://linkedin.com/in/rastko-andonov-585372367)
+* **Web:** [Personal Website](https://rastkoandonov.com)
+* **LinkedIn:** [LinkedIn](https://linkedin.com/in/rastko-andonov-585372367)
